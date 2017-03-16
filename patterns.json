@@ -1,31 +1,12 @@
-{
-  "patterns": [
-    {
-      "enabled": true,
-      "name": "*cosng.net/*",
-      "pattern": "*cosng.net/*",
-      "isRegEx": false,
-      "caseSensitive": false,
-      "blackList": false,
-      "multiLine": false
-    },
-    {
-      "enabled": true,
-      "name": "*mgmt.ergogroup.no/*",
-      "pattern": "*mgmt.ergogroup.no/*",
-      "isRegEx": false,
-      "caseSensitive": false,
-      "blackList": false,
-      "multiLine": false
-    },
-    {
-      "enabled": true,
-      "name": "*idar*.evry.com/*",
-      "pattern": "*idar*.evry.com/*",
-      "isRegEx": false,
-      "caseSensitive": false,
-      "blackList": false,
-      "multiLine": false
-    }
-  ]
-}
+ewogICJwYXR0ZXJucyI6IFsKICAgIHsKICAgICAgImVuYWJsZWQiOiB0cnVlLAogICAgICAibmFt
+ZSI6ICIqY29zbmcubmV0LyoiLAogICAgICAicGF0dGVybiI6ICIqY29zbmcubmV0LyoiLAogICAg
+ICAiaXNSZWdFeCI6IGZhbHNlLAogICAgICAiY2FzZVNlbnNpdGl2ZSI6IGZhbHNlLAogICAgICAi
+YmxhY2tMaXN0IjogZmFsc2UsCiAgICAgICJtdWx0aUxpbmUiOiBmYWxzZQogICAgfSwKICAgIHsK
+ICAgICAgImVuYWJsZWQiOiB0cnVlLAogICAgICAibmFtZSI6ICIqbWdtdC5lcmdvZ3JvdXAubm8v
+KiIsCiAgICAgICJwYXR0ZXJuIjogIiptZ210LmVyZ29ncm91cC5uby8qIiwKICAgICAgImlzUmVn
+RXgiOiBmYWxzZSwKICAgICAgImNhc2VTZW5zaXRpdmUiOiBmYWxzZSwKICAgICAgImJsYWNrTGlz
+dCI6IGZhbHNlLAogICAgICAibXVsdGlMaW5lIjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJl
+bmFibGVkIjogdHJ1ZSwKICAgICAgIm5hbWUiOiAiKmlkYXIqLmV2cnkuY29tLyoiLAogICAgICAi
+cGF0dGVybiI6ICIqaWRhciouZXZyeS5jb20vKiIsCiAgICAgICJpc1JlZ0V4IjogZmFsc2UsCiAg
+ICAgICJjYXNlU2Vuc2l0aXZlIjogZmFsc2UsCiAgICAgICJibGFja0xpc3QiOiBmYWxzZSwKICAg
+ICAgIm11bHRpTGluZSI6IGZhbHNlCiAgICB9CiAgXQp9Cg==
