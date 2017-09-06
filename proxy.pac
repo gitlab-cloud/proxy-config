@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
 
-	var useSocks = ["*.cosng.net", "*mgmt.ergogroup.no", "*idar*.evry.com", "*nicap*.evry.com", "*.cosng.net:*"];
+	var useSocks = ["*.cosng.net", "*mgmt.ergogroup.no", "*idar*.evry.com", "*nicap*.evry.com", "*.cosng.net:*", "evry.ipcenter.com"];
 
 	for (var i= 0; i < useSocks.length; i++) {
         	if (shExpMatch(host, useSocks[i])) {
