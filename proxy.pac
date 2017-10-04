@@ -1,11 +1,18 @@
 function FindProxyForURL(url, host) {
 
-	var useSocks = ["*.cosng.net", "*mgmt.ergogroup.no", "*idar*.evry.com", "*nicap*.evry.com", "*.cosng.net:*", "evry.ipcenter.com"];
+	var useSocksFET = ["*.cosng.net", "*mgmt.ergogroup.no", "*idar*.evry.com", "*nicap*.evry.com", "*.cosng.net:*", "evry.ipcenter.com"];
+	var useSocksESN = ["*.dcinf.se"];
 
-	for (var i= 0; i < useSocks.length; i++) {
-        	if (shExpMatch(host, useSocks[i])) {
+	for (var i= 0; i < useSocksFET.length; i++) {
+        	if (shExpMatch(host, useSocksFET[i])) {
             	  return "SOCKS localhost:1080";
         	}
+	}
+
+	for (var i=0; i < useSocksESN.length; i++) {
+		if (shExpMatch(host, useSocksESN[i])) {
+		  return "SOCKS localhost:1081";
+		}
 	}
 
         // All other requests go directly
