@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
 
-	var useSocksFET = ["*.cosng.net", "*mgmt.ergogroup.no", "*idar*.evry.com", "*nicap*.evry.com", "*.cosng.net:*", "evry.ipcenter.com"];
+	var useSocksFET = ["*.cosng.net", "*.cloudqa.local", "*mgmt.ergogroup.no", "*idar*.evry.com", "*nicap*.evry.com", "*.cosng.net:*", "evry.ipcenter.com"];
 	var useSocksESN = ["*.dcinf.se"];
 
 	for (var i= 0; i < useSocksFET.length; i++) {
