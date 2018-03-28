@@ -4,9 +4,9 @@ function FindProxyForURL(url, host) {
 	var useSocksESN = ["*.dcinf.se"];
 	var useSocksGJO = ["*10.133.*", "vcsa01-hm31.man.cosng.net"];
 
-	for (var i= 0; i < useSocksFET.length; i++) {
-        	if (shExpMatch(host, useSocksFET[i])) {
-            	  return "SOCKS localhost:1080";
+	for (var i= 0; i < useSocksGJO.length; i++) {
+        	if (shExpMatch(host, useSocksGJO[i])) {
+            	  return "SOCKS localhost:1082";
         	}
 	}
 
@@ -16,9 +16,9 @@ function FindProxyForURL(url, host) {
 		}
 	}
 
-	for (var i=0; i < useSocksGJO.length; i++) {
-		if (shExpMatch(host, useSocksGJO[i])) {
-		  return "SOCKS localhost:1082";
+	for (var i=0; i < useSocksFET.length; i++) {
+		if (shExpMatch(host, useSocksFET[i])) {
+		  return "SOCKS localhost:1080";
 		}
 	}
 
