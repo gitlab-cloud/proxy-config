@@ -12,7 +12,7 @@ function FindProxyForURL(url, host) {
 
 	for (var i=0; i < useSocksESN.length; i++) {
 		if (shExpMatch(host, useSocksESN[i])) {
-		  return "SOCKS localhost:1081";
+		  return "SOCKS localhost:1085";
 		}
 	}
 
